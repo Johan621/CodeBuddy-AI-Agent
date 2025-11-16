@@ -1,0 +1,22 @@
+{
+  "plan": [
+    {
+      "file": "demo_repo\\example.py",
+      "action": "fix_eval"
+    }
+  ],
+  "changes": [
+    {
+      "file": "demo_repo\\example.py",
+      "update": "eval() replaced"
+    }
+  ],
+  "tests_before": {
+    "success": true,
+    "errors": []
+  },
+  "tests_after": {
+    "success": true,
+    "errors": []
+  }
+}
